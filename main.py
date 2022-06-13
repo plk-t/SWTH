@@ -34,7 +34,6 @@ try:
 except ImportError:
     amp = None
 
-
 def parse_option():
     parser = argparse.ArgumentParser('Swin Transformer training and evaluation script', add_help=False)
     parser.add_argument('--cfg', type=str, default='./configs/swin_config.yaml', metavar="FILE", help='path to config file', )
